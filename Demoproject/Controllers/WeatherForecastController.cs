@@ -29,12 +29,13 @@ namespace Demoproject.Controllers
             })
             .ToArray();
         }
+
         [HttpGet("message")]
         public IActionResult GetMessage()
         {
             return Ok(new
             {
-                message = "Political Party Management Demo API is working",
+                message = "Political Party Management Demo API is working update revert",
                 version = "1.0"
             });
         }
